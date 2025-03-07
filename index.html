@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Frases Motivacionais</title>
+    <link rel="stylesheet" href="css/min/estilo.min.css" />
+    <script src="js/min/controle.min.js" defer></script>
+    <!-- <link rel="stylesheet" href="css/estilo.css" />
+    <script src="js/controle.js" defer></script> -->
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="titulo-principal">Gerador de Frases Motivacionais</h1>
+    </header>
+
+    <main class="conteudo-principal">
+      <p id="frase" class="frase">Frase vai aqui...</p>
+      <button type="button" id="botao-gerar" class="botao botao-gerar">
+        Gerar Frase
+      </button>
+    </main>
+
+    <div id="caixa-modal" class="caixa-modal">
+      <div id="modal" class="modal">
+        <h2 class="titulo-modal">Atenção:</h2>
+        <p id="msg-modal" class="msg-modal"></p>
+        <button
+          type="button"
+          id="botao-fechar-modal"
+          class="botao botao-fechar-modal"
+        >
+          Fechar
+        </button>
+      </div>
+    </div>
+
+    <footer class="rodape">
+      <p class="direitos-autorais">
+        &copy; Copyright <span id="ano-atual">2025</span> - by
+        <a
+          href="https://github.com/vitorSouza952"
+          target="_blank"
+          class="link-direitos-autorais"
+          >Vitor Souza</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
