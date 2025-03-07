@@ -36,6 +36,8 @@ body {
   color: #777;
   background-color: transparent;
   padding: 1rem;
+  border: 0.067rem solid #777;
+  border-radius: 0.3rem;
   cursor: pointer;
 }
 
